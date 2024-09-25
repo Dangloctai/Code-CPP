@@ -15,6 +15,8 @@ int main(){
 	for(int i = 0; i < n; i++){
 		cin >> a[i];
 	}
-	cout << binary_search(a, a + n, 2);
+	for(int x : a){
+		cout << a[i];
+	}
 	return 0;
 }
